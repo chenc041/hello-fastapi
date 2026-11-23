@@ -1,16 +1,22 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
 *.egg-info/
 .venv/
 build/
 dist/
+.mypy_cache/
+.hypothesis/
 
 # Tooling caches
 .pytest_cache/
 .basedpyright/
 .ruff_cache/
 .coverage
+.coverage.*
+coverage.xml
 htmlcov/
 
 # Environment
